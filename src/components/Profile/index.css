@@ -1,0 +1,51 @@
+.profile-container {
+  margin-left: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.profile-pic-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+.follower-details {
+  margin-left: 50px;
+}
+.name {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+}
+.follower-details {
+  display: flex;
+  flex-direction: column;
+}
+.follower-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.follower-head {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 25px;
+  padding-left: 30px;
+}
+.follower-count {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 30px;
+  text-align: center;
+}
+.line {
+  color: black;
+  margin-left: 250px;
+}
+.no-posts-image {
+  height: 400px;
+  width: 850px;
+  align-self: center;
+}

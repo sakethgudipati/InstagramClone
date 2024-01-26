@@ -1,0 +1,35 @@
+.nav-bar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-right-style: solid;
+  border-right-color: #d9d8d8;
+  border-right-width: 1px;
+}
+.logo {
+  height: 50px;
+  width: 160px;
+  margin-bottom: 60px;
+}
+.more-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
